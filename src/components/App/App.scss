@@ -1,0 +1,29 @@
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leaflet-routing-alt table {
+  display: none;
+}
+
+.leaflet-routing-alt h2 {
+  font-size: 14px;
+}
+button {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  z-index: 1000000000;
+  padding: 0.5em;
+  color: blue;
+  font-weight: bold;
+}
+
+.leaflet-routing-alt {
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid red;
+}
